@@ -14,5 +14,5 @@ jobs:
           channel: stable
       - name: Build apk
         run: |
-          flutter pub get
+          flutter pub get -t cerealis/lib/main.dart
           flutter build apk --debug
